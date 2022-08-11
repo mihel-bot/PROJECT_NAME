@@ -9,7 +9,7 @@ void task3(){
     };
     static Task3States task3State = Task3States::INIT;
     static uint32_t lasTime;
-    static constexpr uint32_t INTERVAL = 333;
+    static constexpr uint32_t INTERVAL = 166;
     static constexpr uint8_t ledBlue = 26;
     static bool ledStatus = false;
 

@@ -9,7 +9,7 @@ void task2(){
     };
     static Task2States task2State = Task2States::INIT;
     static uint32_t lasTime;
-    static constexpr uint32_t INTERVAL = 250;
+    static constexpr uint32_t INTERVAL = 125;
     static constexpr uint8_t ledGreen = 25;
     static bool ledStatus = false;
 
